@@ -5,12 +5,14 @@ POINT_CLOUD_RANGE: [0, -40, -3, 70.4, 40, 1]
 
 DATA_SPLIT: {
     'train': train,
+    #'test': test
     'test': val
 }
 
 INFO_PATH: {
     'train': [kitti_infos_train.pkl],
     'test': [kitti_infos_val.pkl],
+    #'test': [kitti_infos_test.pkl],
 }
 
 FOV_POINTS_ONLY: True
