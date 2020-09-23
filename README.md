@@ -7,6 +7,7 @@
 It is also the official code release of [`[PointRCNN]`](https://arxiv.org/abs/1812.04244), [`[Part-A^2 net]`](https://arxiv.org/abs/1907.03670) and [`[PV-RCNN]`](https://arxiv.org/abs/1912.13192). 
 
 This fork provides the exact version used on Master's Final Project written by **Javier del Egido**. The project studies state-of-the-art Detection and Multi-Object Tracking  (DAMOT) proposals in order to desing a funcional pipeline to be embebbed on Nvidia Jetson AGX Xavier mounted on ["Techs4AgeCar vehicle"](http://www.robesafe.uah.es/index.php/es-es/) developed by ["Robesafe research group"](https://github.com/RobeSafe-UAH).
+The fork provides ROS communications from PointCloud2 input to custom ["AB3DMOT Tracking module"](https://github.com/JavierEgido/AB3DMOT) in order to set a functional real-time Detection and Multi-Object Tracking (DAMOT) pipeline.
 
 <p align="center">
   <img src="docs/Smartcar.jpg" align="center" width="50%">
