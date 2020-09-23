@@ -114,6 +114,14 @@ visualize the predicted results on your custom data or the original KITTI data.
 
 Please refer to [GETTING_STARTED.md](docs/GETTING_STARTED.md) to learn more usage about this project.
 
+To directly inference on ROS point cloud, run:
+  ```
+  $ python inference.py
+  ```
+You may need to adjust input point cloud name at the end of code. Also some parameters can be tuned:
+- [x] Movelidartocenter (in meters): moves point cloud along X-axis in order to inference over 360º. By default, detection grid only applies over front point cloud.
+- [x] Threshold (0 to 1 float): sets score minimum threshold for objects to be published as detected.
+
 
 ## License
 
