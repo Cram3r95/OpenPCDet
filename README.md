@@ -1,4 +1,4 @@
-<img src="docs/robesafe_logo_calidad_grande.jpg" align="right" width="28%">
+<img src="docs/robesafe_logo_calidad_grande.jpg" align="right" width="24%">
 
 # OpenPCDet fork
 
