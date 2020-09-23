@@ -28,6 +28,7 @@ class Calibration(object):
             calib = calib_file
 
         self.P2 = calib['P2']  # 3 x 4
+        self.P3 = calib['P3']  # 3 x 4
         self.R0 = calib['R0']  # 3 x 3
         self.V2C = calib['Tr_velo2cam']  # 3 x 4
 
