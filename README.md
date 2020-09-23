@@ -1,33 +1,21 @@
 <img src="docs/open_mmlab.png" align="right" width="30%">
 
-# OpenPCDet
+# OpenPCDet fork
 
 `OpenPCDet` is a clear, simple, self-contained open source project for LiDAR-based 3D object detection. 
 
 It is also the official code release of [`[PointRCNN]`](https://arxiv.org/abs/1812.04244), [`[Part-A^2 net]`](https://arxiv.org/abs/1907.03670) and [`[PV-RCNN]`](https://arxiv.org/abs/1912.13192). 
 
+This fork provides the exact version used on Master's Final Project written by Javier del Egido. The project studies state-of-the-art Detection and Multi-Object Tracking  (DAMOT) proposals in order to desing a funcional pipeline to be embebbed on Nvidia Jetson AGX Xavier mounted on ["Techs4AgeCar vehicle"](http://www.robesafe.uah.es/index.php/es-es/).
+
 
 ## Overview
-- [Changelog](#changelog)
 - [Design Pattern](#openpcdet-design-pattern)
 - [Model Zoo](#model-zoo)
 - [Installation](docs/INSTALL.md)
 - [Quick Demo](docs/DEMO.md)
 - [Getting Started](docs/GETTING_STARTED.md)
 - [Citation](#citation)
-
-
-## Changelog
-[2020-07-30] **NEW:** `OpenPCDet` v0.3.0 is released with the following features:
-   * The Point-based and Anchor-Free models ([`PointRCNN`](#KITTI-3D-Object-Detection-Baselines), [`PartA2-Free`](#KITTI-3D-Object-Detection-Baselines)) are supported now.
-   * The NuScenes dataset is supported with strong baseline results ([`SECOND-MultiHead (CBGS)`](#NuScenes-3D-Object-Detection-Baselines) and [`PointPillar-MultiHead`](#NuScenes-3D-Object-Detection-Baselines)).
-   * High efficiency than last version, support `PyTorch 1.1~1.5` and `spconv 1.0~1.2` simultaneously.
-   
-[2020-07-17]  Add simple visualization codes and a quick demo to test with custom data. 
-
-[2020-06-24] `OpenPCDet` v0.2.0 is released with pretty new structures to support more models and datasets. 
-
-[2020-03-16] `OpenPCDet` v0.1.0 is released. 
 
 
 ## Introduction
