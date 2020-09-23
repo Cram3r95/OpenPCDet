@@ -1,4 +1,4 @@
-<img src="docs/robesafe_logo_calidad_grande.tif" align="right" width="30%">
+<img src="docs/robesafe_logo_calidad_grande.jpg" align="right" width="28%">
 
 # OpenPCDet fork
 
@@ -8,7 +8,10 @@ It is also the official code release of [`[PointRCNN]`](https://arxiv.org/abs/18
 
 This fork provides the exact version used on Master's Final Project written by **Javier del Egido**. The project studies state-of-the-art Detection and Multi-Object Tracking  (DAMOT) proposals in order to desing a funcional pipeline to be embebbed on Nvidia Jetson AGX Xavier mounted on ["Techs4AgeCar vehicle"](http://www.robesafe.uah.es/index.php/es-es/) developed by ["Robesafe research group"](https://github.com/RobeSafe-UAH).
 
-<img src="docs/Smartcar.jpg" align="center" width="50%">
+<p align="center">
+  <img src="docs/Smartcar.jpg" align="center" width="50%">
+</p>
+
 
 
 ## Overview
