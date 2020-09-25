@@ -43,37 +43,6 @@ three tracks among all LiDAR-only methods, and the Waymo related models will be 
 We are actively updating this repo currently, and more datasets and models will be supported soon. 
 Contributions are also welcomed. 
 
-### `OpenPCDet` design pattern
-
-* Data-Model separation with unified point cloud coordinate for easily extending to custom datasets:
-<p align="center">
-  <img src="docs/dataset_vs_model.png" width="95%" height="320">
-</p>
-
-* Unified 3D box definition: (x, y, z, dx, dy, dz, heading).
-
-* Flexible and clear model structure to easily support various 3D detection models: 
-<p align="center">
-  <img src="docs/model_framework.png" width="95%">
-</p>
-
-* Support various models within one framework as: 
-<p align="center">
-  <img src="docs/multiple_models_demo.png" width="95%">
-</p>
-
-
-### Currently Supported Features
-
-- [x] Support both one-stage and two-stage 3D object detection frameworks
-- [x] Support distributed training & testing with multiple GPUs and multiple machines
-- [x] Support multiple heads on different scales to detect different classes
-- [x] Support stacked version set abstraction to encode various number of points in different scenes
-- [x] Support Adaptive Training Sample Selection (ATSS) for target assignment
-- [x] Support RoI-aware point cloud pooling & RoI-grid point cloud pooling
-- [x] Support GPU version 3D IoU calculation and rotated NMS 
-
-
 ## Model Zoo
 
 ### KITTI 3D Object Detection Baselines
@@ -98,10 +67,6 @@ All models are trained with 8 GTX 1080Ti GPUs and are available for download.
 |---------------------------------------------|----------:|:-------:|:-------:|:-------:|:---------:|:-------:|:-------:|:---------:|
 | [PointPillar-MultiHead](tools/cfgs/nuscenes_models/cbgs_pp_multihead.yaml) | 33.87	| 26.00 | 32.07	| 28.74 | 20.15 | 44.63 | 58.23	 | [model-23M](https://drive.google.com/file/d/1fnxKTUi79dSARhsREXR_UKnWs-83bgEV/view?usp=sharing) | 
 | [SECOND-MultiHead (CBGS)](tools/cfgs/nuscenes_models/cbgs_second_multihead.yaml) | 31.15 |	25.51 |	26.64 | 26.26 | 20.46 | 50.59 | 62.29 | [model-35M](https://drive.google.com/file/d/1s34D8g-h65qDyoYbgCraxcZQwinbxhaY/view?usp=sharing) |
-
-
-### Other datasets
-More datasets are on the way. 
 
 ## Installation
 
@@ -139,6 +104,36 @@ LiDAR-based perception models as shown above. Some parts of `PCDet` are learned 
 We would like to thank for their proposed methods and the official implementation.   
 
 We hope that this repo could serve as a strong and flexible codebase to benefit the research community by speeding up the process of reimplementing previous works and/or developing new methods.
+
+## `OpenPCDet` design pattern
+
+* Data-Model separation with unified point cloud coordinate for easily extending to custom datasets:
+<p align="center">
+  <img src="docs/dataset_vs_model.png" width="95%" height="320">
+</p>
+
+* Unified 3D box definition: (x, y, z, dx, dy, dz, heading).
+
+* Flexible and clear model structure to easily support various 3D detection models: 
+<p align="center">
+  <img src="docs/model_framework.png" width="95%">
+</p>
+
+* Support various models within one framework as: 
+<p align="center">
+  <img src="docs/multiple_models_demo.png" width="95%">
+</p>
+
+
+## Currently Supported Features
+
+- [x] Support both one-stage and two-stage 3D object detection frameworks
+- [x] Support distributed training & testing with multiple GPUs and multiple machines
+- [x] Support multiple heads on different scales to detect different classes
+- [x] Support stacked version set abstraction to encode various number of points in different scenes
+- [x] Support Adaptive Training Sample Selection (ATSS) for target assignment
+- [x] Support RoI-aware point cloud pooling & RoI-grid point cloud pooling
+- [x] Support GPU version 3D IoU calculation and rotated NMS 
 
 
 ## Citation 
