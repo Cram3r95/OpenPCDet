@@ -83,7 +83,7 @@ Please refer to [GETTING_STARTED.md](docs/GETTING_STARTED.md) to learn more usag
 
 To directly inference on ROS point cloud, run:
   ```
-  $ python inference.py
+  $ python3.6 inference.py
   ```
 You may need to adjust input point cloud name at the end of code. Also some parameters can be tuned:
 - [x] Movelidartocenter (in meters): moves point cloud along X-axis in order to inference over 360º. By default, detection grid only applies over front point cloud.
