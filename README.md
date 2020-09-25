@@ -6,10 +6,10 @@
 
 It is also the official code release of [`[PointRCNN]`](https://arxiv.org/abs/1812.04244), [`[Part-A^2 net]`](https://arxiv.org/abs/1907.03670) and [`[PV-RCNN]`](https://arxiv.org/abs/1912.13192). 
 
-This fork provides the exact version used on Master's Final Project written by **Javier del Egido**. The project studies state-of-the-art Detection and Multi-Object Tracking  (DAMOT) proposals in order to desing a funcional pipeline to be embebbed on Nvidia Jetson AGX Xavier mounted on ["Techs4AgeCar vehicle"](http://www.robesafe.uah.es/index.php/es-es/) developed by ["Robesafe research group"](https://github.com/RobeSafe-UAH).
-The fork provides ROS communications from PointCloud2 input to custom ["AB3DMOT Tracking module"](https://github.com/JavierEgido/AB3DMOT) in order to set a functional real-time Detection and Multi-Object Tracking (DAMOT) pipeline.
+This fork provides the exact version used on Master's Final Project written by **Javier del Egido**. The project studies state-of-the-art Detection and Multi-Object Tracking  (DAMOT) proposals in order to desing a funcional pipeline to be embebbed on Nvidia Jetson AGX Xavier mounted on [`Techs4AgeCar vehicle`](http://www.robesafe.uah.es/index.php/es-es/) developed by [`Robesafe research group`](https://github.com/RobeSafe-UAH).
+The fork provides ROS communications from PointCloud2 input to custom [`AB3DMOT Tracking module`](https://github.com/JavierEgido/AB3DMOT) in order to set a functional real-time Detection and Multi-Object Tracking (DAMOT) pipeline.
 
-ROS messages provided by ["BEV_tracking ROS"](https://github.com/JavierEgido/bevtracking) package are needed.
+ROS messages provided by [`BEV_tracking ROS`](https://github.com/JavierEgido/bevtracking) package are needed.
 
 <p align="center">
   <img src="docs/Smartcar.jpg" align="center" width="50%">
@@ -91,7 +91,7 @@ You may need to adjust input point cloud name at the end of code. Also some para
 
 ## Docker (September 2020 Update)
 
-If you prefer to install OpenPCDet as a Docker image, you can download provided image on ["link"](https://mega.nz/file/2UJyBRDB#gb0Iz5FWhR2kuLAbHNAzhsrv4Zu74NW5Eg9pEasLfME).
+If you prefer to install OpenPCDet as a Docker image, you can download provided image on [`link`](https://mega.nz/file/2UJyBRDB#gb0Iz5FWhR2kuLAbHNAzhsrv4Zu74NW5Eg9pEasLfME).
 
 Install docker image by using: docker load --input OpenPCDet.tar 
 
@@ -171,4 +171,4 @@ If you find this project useful in your research, please consider cite:
 ## Contact
 The original project is currently maintained by Shaoshuai Shi ([@sshaoshuai](http://github.com/sshaoshuai)) and Chaoxu Guo ([@Gus-Guo](https://github.com/Gus-Guo)).
 
-This fork is maintained by ["Javier del Egido"](https://github.com/JavierEgido) and ["Robesafe research group"](https://github.com/RobeSafe-UAH)
+This fork is maintained by [`Javier del Egido`](https://github.com/JavierEgido) and [`Robesafe research group`](https://github.com/RobeSafe-UAH)
