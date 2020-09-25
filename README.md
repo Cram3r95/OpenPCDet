@@ -92,6 +92,7 @@ You may need to adjust input point cloud name at the end of code. Also some para
 ## Docker (September 2020 Update)
 
 If you prefer to install OpenPCDet as a Docker image, you can download provided image on ["link"](https://mega.nz/file/2UJyBRDB#gb0Iz5FWhR2kuLAbHNAzhsrv4Zu74NW5Eg9pEasLfME).
+
 Install docker image by using: docker load --input OpenPCDet.tar 
 
 ## License
