@@ -124,6 +124,10 @@ You may need to adjust input point cloud name at the end of code. Also some para
 - [x] Movelidartocenter (in meters): moves point cloud along X-axis in order to inference over 360º. By default, detection grid only applies over front point cloud.
 - [x] Threshold (0 to 1 float): sets score minimum threshold for objects to be published as detected.
 
+## Docker
+
+If you prefer to install OpenPCDet as a Docker image, you can download provided image on ["link"](https://mega.nz/file/2UJyBRDB#gb0Iz5FWhR2kuLAbHNAzhsrv4Zu74NW5Eg9pEasLfME).
+Install docker image by using: docker load --input OpenPCDet.tar 
 
 ## License
 
