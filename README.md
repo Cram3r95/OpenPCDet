@@ -6,8 +6,8 @@
 
 It is also the official code release of [`[PointRCNN]`](https://arxiv.org/abs/1812.04244), [`[Part-A^2 net]`](https://arxiv.org/abs/1907.03670) and [`[PV-RCNN]`](https://arxiv.org/abs/1912.13192). 
 
-This fork provides the exact version used on Master's Final Project written by **Javier del Egido**. The project studies state-of-the-art Detection and Multi-Object Tracking  (DAMOT) proposals in order to desing a funcional pipeline to be embebbed on Nvidia Jetson AGX Xavier mounted on [Techs4AgeCar vehicle](http://www.robesafe.uah.es/index.php/es-es/) developed by [Robesafe research group](https://github.com/RobeSafe-UAH).
-The fork provides ROS communications from PointCloud2 input to custom [AB3DMOT Tracking module](https://github.com/JavierEgido/AB3DMOT) in order to set a functional real-time Detection and Multi-Object Tracking (DAMOT) pipeline.
+This fork provides the exact version used on Master's Final Project written by **Javier del Egido**. The project studies state-of-the-art **Detection and Multi-Object Tracking**  (DAMOT) proposals in order to desing a funcional pipeline to be embebbed on Nvidia Jetson AGX Xavier mounted on [Techs4AgeCar vehicle](http://www.robesafe.uah.es/index.php/es-es/) developed by [Robesafe research group](https://github.com/RobeSafe-UAH).
+The fork provides **ROS communications** from PointCloud2 input to custom [AB3DMOT Tracking module](https://github.com/JavierEgido/AB3DMOT) in order to set a functional real-time Detection and Multi-Object Tracking (DAMOT) pipeline.
 
 ROS messages provided by [BEV_tracking ROS](https://github.com/JavierEgido/bevtracking) package are needed.
 
@@ -94,6 +94,12 @@ You may need to adjust input point cloud name at the end of code. Also some para
 If you prefer to install OpenPCDet as a Docker image, you can download provided image on [link](https://mega.nz/file/2UJyBRDB#gb0Iz5FWhR2kuLAbHNAzhsrv4Zu74NW5Eg9pEasLfME).
 
 Install docker image by using: docker load --input OpenPCDet.tar 
+
+## DAMOT Docker for Nvidia Jetson AGX Xavier (September 2020 Update)
+
+A full Detection and Multi-Object Tracking (combined with forked [AB3DMOT](https://github.com/JavierEgido/AB3DMOT)) developed for ARM Nvidia Jetson AGX Xavier can be downloaded from [link](https://mega.nz/file/id4UAaRD#GH1dICPYR7HRqozZckjQSpLP5vKtUwoubeCirGKs91Y).
+
+It provides a complete pipeline, using ROS PointCloud2 as input and producing tracked objects as output as in [AB3DMOT](https://github.com/JavierEgido/AB3DMOT), using ROS [bev_tracking](https://github.com/JavierEgido/bevtracking) package also installed.
 
 ## License
 
